@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
     <title type="text">Koopa&#39;s Space</title>
     <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
-    <updated>2020-01-07T21:30:42+08:00</updated>
+    <updated>2020-01-07T22:24:07+08:00</updated>
     <id>https://koopa01.github.io/</id>
     <link rel="alternate" type="text/html" href="https://koopa01.github.io/" />
     <link rel="self" type="application/atom+xml" href="https://koopa01.github.io/atom.xml" />
@@ -16,6 +16,54 @@
             </author>
     <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
     <generator uri="https://gohugo.io/" version="0.62.0">Hugo</generator>
+        <entry>
+            <title type="text">博客Push到github后404的问题</title>
+            <link rel="alternate" type="text/html" href="https://koopa01.github.io/posts/problem_with_pushing_to_github/" />
+            <id>https://koopa01.github.io/posts/problem_with_pushing_to_github/</id>
+            <updated>2020-01-07T22:23:20+08:00</updated>
+            <published>2020-01-07T21:54:27+08:00</published>
+            <author>
+                    <name>Koopa</name>
+                    <uri>https://github.com/koopa01</uri>
+                    <email>koopayu@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    
+    <summary type="html"><![CDATA[蠢哭了的问题 ###首先说明情况： > 想做一个部署在github上的基于hugo的个人博……]]></summary>
+            
+                <content type="html"><![CDATA[<p>蠢哭了的问题</p>
+
+<p>###首先说明情况：
+&gt; 想做一个部署在github上的基于hugo的个人博客，博客本地localhost跑得起来，push到github就显示404，尝试过‘git add .’，尝试过手动修改changes，尝试过删库重传，尝试过换主题，尝试过修改config文件，尝试过重新生成public，尝试过每修改一个文件就重写一次commit注释。</p>
+
+<p>###<strong>最后发现问题是push的工程是根目录的所有文件</strong>      //根目录包含public文件夹
+&gt; 而不是在public文件夹下，把public文件夹push到github仓库。重新在/public目录下add+commit+remote+push之后报错untracked files: public/index.html</p>
+
+<blockquote>
+<p>于是老办法删库重传public文件夹，部署完终于可以访问了。</p>
+</blockquote>
+
+<p>被自己蠢哭了，怕自己忘记关键步骤还写了操作流程和相应代码，就是没看，..星际玩家confirmed..。</p>
+
+<p>同时也给自己提了个醒，push的时候一定要注意路径，保存的时候也要注意路径，甚至新建文件夹的时候就要想好这个文件夹下内容分类以及需要保存的路径。</p>
+
+<p>修改了一个的问题好开心，even though是如此愚蠢的问题。爱上捣鼓网站了，把现在的模板customize并部署到自己的域名已提上日程。</p>
+
+<p>Yeh！</p>
+]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
         <entry>
             <title type="text">杂谈</title>
             <link rel="alternate" type="text/html" href="https://koopa01.github.io/posts/zatan/" />
@@ -452,6 +500,35 @@ Marry Xmas.</p>
 
 <p>Koopa  Sep.25 2019</p>
 ]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text"></title>
+            <link rel="alternate" type="text/html" href="https://koopa01.github.io/posts/index-1/" />
+            <id>https://koopa01.github.io/posts/index-1/</id>
+            <updated>0001-01-01T00:00:00+00:00</updated>
+            <published>0001-01-01T00:00:00+00:00</published>
+            <author>
+                    <name>Koopa</name>
+                    <uri>https://github.com/koopa01</uri>
+                    <email>koopayu@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html"><![CDATA["杂谈"]]></summary>
+            
+                <content type="html"><![CDATA[<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>"杂谈" </title></head><body>
+
+</body></html>]]></content>
             
             
             
