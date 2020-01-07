@@ -23,7 +23,7 @@
         
             <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
         
-        <lastBuildDate>Tue, 07 Jan 2020 22:24:07 +0800</lastBuildDate>
+        <lastBuildDate>Tue, 07 Jan 2020 22:45:53 +0800</lastBuildDate>
         
             <atom:link rel="self" type="application/rss+xml" href="https://koopa01.github.io/rss.xml" />
         
@@ -38,17 +38,29 @@
                 
                 <copyright>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</copyright>
                 
-                    <description><![CDATA[<p>蠢哭了的问题</p>
+                    <description><![CDATA[
 
-<p>###首先说明情况：
-&gt; 想做一个部署在github上的基于hugo的个人博客，博客本地localhost跑得起来，push到github就显示404，尝试过‘git add .’，尝试过手动修改changes，尝试过删库重传，尝试过换主题，尝试过修改config文件，尝试过重新生成public，尝试过每修改一个文件就重写一次commit注释。</p>
+<h3 id="蠢哭了的问题">蠢哭了的问题</h3>
 
-<p>###<strong>最后发现问题是push的工程是根目录的所有文件</strong>      //根目录包含public文件夹
-&gt; 而不是在public文件夹下，把public文件夹push到github仓库。重新在/public目录下add+commit+remote+push之后报错untracked files: public/index.html</p>
+<h3 id="首先说明情况"><strong>首先说明情况</strong>：</h3>
+
+<blockquote>
+<p>想做一个部署在github上的基于hugo的个人博客，博客本地localhost跑得起来，push到github就显示404，尝试过:<code>git add .</code>，尝试过手动修改changes，尝试过删库重传，尝试过换主题，尝试过修改config文件，尝试过重新生成public，尝试过每修改一个文件就重写一次commit注释。</p>
+</blockquote>
+
+<p><strong>最后发现问题是push的工程是根目录的所有文件</strong>         //根目录包含public文件夹</p>
+
+<blockquote>
+<p>而不是在public文件夹下，把public文件夹push到github仓库。重新在/public目录下add+commit+remote+push之后报错</p>
+</blockquote>
+
+<p><code>untracked files: public/index.html</code></p>
 
 <blockquote>
 <p>于是老办法删库重传public文件夹，部署完终于可以访问了。</p>
 </blockquote>
+
+<h3 id="最后">最后</h3>
 
 <p>被自己蠢哭了，怕自己忘记关键步骤还写了操作流程和相应代码，就是没看，..星际玩家confirmed..。</p>
 
@@ -56,7 +68,7 @@
 
 <p>修改了一个的问题好开心，even though是如此愚蠢的问题。爱上捣鼓网站了，把现在的模板customize并部署到自己的域名已提上日程。</p>
 
-<p>Yeh！</p>
+<h2 id="yeh">Yeh！</h2>
 ]]></description>
                 
                 
