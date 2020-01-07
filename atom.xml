@@ -1,0 +1,468 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="zh-CN">
+    <title type="text">Koopa&#39;s Space</title>
+    <subtitle type="html">MemE 是一个强大且可高度定制的 GoHugo 博客主题，专为个人博客设计。</subtitle>
+    <updated>2020-01-07T21:30:42+08:00</updated>
+    <id>https://koopa01.github.io/</id>
+    <link rel="alternate" type="text/html" href="https://koopa01.github.io/" />
+    <link rel="self" type="application/atom+xml" href="https://koopa01.github.io/atom.xml" />
+    <author>
+            <name>Koopa</name>
+            <uri>https://koopa01.github.io/</uri>
+            
+                <email>koopayu@gmail.com</email>
+            </author>
+    <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    <generator uri="https://gohugo.io/" version="0.62.0">Hugo</generator>
+        <entry>
+            <title type="text">杂谈</title>
+            <link rel="alternate" type="text/html" href="https://koopa01.github.io/posts/zatan/" />
+            <id>https://koopa01.github.io/posts/zatan/</id>
+            <updated>2020-01-07T21:23:17+08:00</updated>
+            <published>2020-01-07T20:02:10+08:00</published>
+            <author>
+                    <name>Koopa</name>
+                    <uri>https://github.com/koopa01</uri>
+                    <email>koopayu@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html"><![CDATA[]]></summary>
+            
+                <content type="html"><![CDATA[]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Hello World</title>
+            <link rel="alternate" type="text/html" href="https://koopa01.github.io/posts/hello-world/" />
+            <id>https://koopa01.github.io/posts/hello-world/</id>
+            <updated>2019-12-26T02:43:03+08:00</updated>
+            <published>2019-12-26T01:41:09+08:00</published>
+            <author>
+                    <name>Koopa</name>
+                    <uri>https://github.com/koopa01</uri>
+                    <email>koopayu@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html"><![CDATA[Hello World!
+This is ..Koopa..]]></summary>
+            
+                <content type="html"><![CDATA[<p>Hello World!</p>
+
+<p>This is ..Koopa..</p>
+]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Hugo个人网站搭建流程</title>
+            <link rel="alternate" type="text/html" href="https://koopa01.github.io/posts/hugo%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA%E6%B5%81%E7%A8%8B/" />
+            <id>https://koopa01.github.io/posts/hugo%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99%E6%90%AD%E5%BB%BA%E6%B5%81%E7%A8%8B/</id>
+            <updated>2019-12-25T09:18:35+08:00</updated>
+            <published>2019-12-25T01:48:15+08:00</published>
+            <author>
+                    <name>Koopa</name>
+                    <uri>https://github.com/koopa01</uri>
+                    <email>koopayu@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    
+    <summary type="html"><![CDATA[1.Windows 64位系统下安装Hugo 1 2 3 4 * 安装hugo * 添加到系统环境变量，放在C:\WI……]]></summary>
+            
+                <content type="html"><![CDATA[<p>1.Windows 64位系统下安装Hugo</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 安装hugo
+* 添加到系统环境变量，放在C:\WINDOWS里
+* 进入cmd/Git Bash，进入koopablog根目录
+* cmd/Git Bash中输入</code></pre></td></tr></table>
+</div>
+</div>
+<p>hugo version</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 可查看安装完成、版本</code></pre></td></tr></table>
+</div>
+</div>
+<p>2.用Hugo来生成个人博客</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 在根目录下，以管理员身份打开cmd/Git Bash控制台，然后输入</code></pre></td></tr></table>
+</div>
+</div>
+<p>hugo new site myblog         //myblog为自定义的博客名</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 切换到生成的myblog(博客的根目录)文件夹目录下</code></pre></td></tr></table>
+</div>
+</div>
+<p>cd F:cd koopablogcd ..   //Git Bash里退出需中间加空格</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 可以查看当前目录所在位置</code></pre></td></tr></table>
+</div>
+</div>
+<p>pwd</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 可以查看当前目录所有文件</code></pre></td></tr></table>
+</div>
+</div>
+<p>ls -l</p>
+
+<p>3.下载并设置博客主题</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 打开git bash,切换到生成的myblog(博客的根目录)文件夹目录下,执行</code></pre></td></tr></table>
+</div>
+</div>
+<p>git clone <a href="https://github.com/vaga/hugo-theme-m10c.git" target="_blank">https://github.com/vaga/hugo-theme-m10c.git</a> themes/m10c    //主题随意</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 下载好的主题在D:\Hugo\hugo_0.55.4_Windows-64bit\myblog\themes目录下。</code></pre></td></tr></table>
+</div>
+</div>
+<p>4.在本地启动个人博客</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 切换到koopablog根目录里启动主题</code></pre></td></tr></table>
+</div>
+</div>
+<p>hugo server -t LeaveIt -D --buildDrafts//浏览器中输入<a href="http://localhost:1313/可打开静态网站" target="_blank">http://localhost:1313/可打开静态网站</a></p>
+
+<p>5.实际写一篇文章</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 切换到博客的根目录下，cmd/Git Bash中输入命令</code></pre></td></tr></table>
+</div>
+</div>
+<p>hugo new post/blog.md      //post为新建or已有文件夹，注意加后缀.md切换到博客的根目录下，cmd/Git Bash中输入命令</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 然后会在D:\Hugo\hugo_0.55.4_Windows-64bit\myblog\content\post路径下生成了blog.md文件，
+  再使用sublime或能编写markdown文件的编辑器打开blog.md文件，写入博客文章的内容
+  //头文件不能删，最好只改title
+* 切换到博客的根目录下，cmd中输入命令</code></pre></td></tr></table>
+</div>
+</div>
+<p>hugo server -t m10c -D --buildDrafts</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 注意：每次修改完blog.md文件中的内容后，需要重新在cmd中输入命令</code></pre></td></tr></table>
+</div>
+</div>
+<p>hugo server -t m10c -D --buildDrafts
+      //这样<a href="http://localhost:1313/链接中的页面才会更新。" target="_blank">http://localhost:1313/链接中的页面才会更新。</a></p>
+
+<p>6.将个人博客部署到远端服务器</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 要想别人能访问你的博客网站，必须将个人博客部署到github的仓库（远端服务器）。
+* 首先创建一个仓库，注意：创建仓库的命名必须是你github的昵称且必须小写再加上.github.io。
+       // github昵称是koopa01，创建的仓库名必须是koopa01.github.io
+* 把生成的站点部署到github仓库，切换到博客根目录下，cmd/Git Bash中输入命令</code></pre></td></tr></table>
+</div>
+</div>
+<p>hugo --theme=m10c(主题名) --baseUrl=&quot;<a href="https://koopa01.github.io/(仓库地址)&quot;" target="_blank">https://koopa01.github.io/(仓库地址)&quot;</a> -D --buildDrafts          //--bulidDrafts需改为使用-D</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 会在博客的根目录myblog下生成public文件夹（post中内容转成html格式）
+* 把public文件夹传到GitHub仓库，切换到public文件目录下，在Git Bash中输入命令</code></pre></td></tr></table>
+</div>
+</div>
+<p>git init</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 将此public文件夹变成git本地仓库，然后输入</code></pre></td></tr></table>
+</div>
+</div>
+<p>git add  .</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 将public文件夹下的所有文件放入暂存区中等待提交，
+* 接着输入</code></pre></td></tr></table>
+</div>
+</div>
+<p>git commit -m&quot;我的Hugo博客第一次提交&quot; //&quot;&quot;中内容可随意改，内容会体现在Github主页</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 这样就将本地仓库中的文件提交到了远程仓库。
+* public文件夹和远端GitHub进行关联，在接着，输入</code></pre></td></tr></table>
+</div>
+</div>
+<p>git remote add origin <a href="https://github.com/koopa01（自己的GitHub）/koopa01.github.io（自己的仓库名字）.git" target="_blank">https://github.com/koopa01（自己的GitHub）/koopa01.github.io（自己的仓库名字）.git</a></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 最后将本地仓库代码推送到远程库，输入命令</code></pre></td></tr></table>
+</div>
+</div>
+<p>git push -u origin master   //输入用户名密码</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 在浏览器中输入 koopa01.github.io 即可访问自己的博客网站</code></pre></td></tr></table>
+</div>
+</div>]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">Github基本操作</title>
+            <link rel="alternate" type="text/html" href="https://koopa01.github.io/posts/github%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/" />
+            <id>https://koopa01.github.io/posts/github%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</id>
+            <updated>2019-12-25T09:18:13+08:00</updated>
+            <published>2019-12-25T00:28:57+08:00</published>
+            <author>
+                    <name>Koopa</name>
+                    <uri>https://github.com/koopa01</uri>
+                    <email>koopayu@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights>
+    
+    <summary type="html"><![CDATA[Github basic steps 1 2 3 4 * 注册账号，验证邮箱，创建自己的库（repository） * 安装Git……]]></summary>
+            
+                <content type="html"><![CDATA[<p>Github basic steps</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 注册账号，验证邮箱，创建自己的库（repository）
+* 安装Git Bash
+* 获取属于你自己的密匙
+* 打开Git Bash</code></pre></td></tr></table>
+</div>
+</div>
+<p>$ ssh-keygen-t rsa-C &quot;your_email@youremail.com&quot;</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">       //需要在Git Bash上输入这个代码，引号内需要改成你在注册GitHub的时候绑定的邮箱账号。之后会有一些简单的让你确认的操作，
+       //之后让你会提示操作路径、密码等等，一般情况下就直接按回车一路过就可以。
+* 在.ssh文件夹中id_rsa.pub（公开密匙）和id_rsa（私有密匙），用记事本打开，复制密匙， 登录到GitHub上添加这个密匙，title等于是备注
+* 回到Git Bash，输入检查是否成功绑定。</code></pre></td></tr></table>
+</div>
+</div>
+<p>ssh -T git@github.com</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 然后输入上边的代码，来检查是否成功绑定。第一次绑定的时候输入上边的代码之后会提示是否continue，在输入yes后如果出现了：You&#39;ve successfully authenticated, but GitHub does not provide shell access .那就说明，已经成功连上了GitHub。接下来还需要简单的设置一些东西。</code></pre></td></tr></table>
+</div>
+</div>
+<p>git config --global user.name &quot;输入注册时的username&quot;
+git config --global user.email &quot;输入注册时的email&quot;</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 库创建完成  会有HTTPS和SSH网址出现在网页中
+* Git Bash中使用cd F：定位F盘</code></pre></td></tr></table>
+</div>
+</div>
+<p>git clone <a href="https://github.com/koopa01/koopa-s-blog.git" target="_blank">https://github.com/koopa01/koopa-s-blog.git</a></p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* F盘中已经有以我的库名所创建的文件夹了。
+* 打开这个文件夹，然后在其中创建一个任意格式，任意名称的文件，用ls查看目前定位文件夹中文件</code></pre></td></tr></table>
+</div>
+</div>
+<p>ls
+dontreadme.txt</p>
+
+<p>git add dontreadme.txt
+git commit -m &quot;cc&quot;</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 引号内的内容可以随意改动，这个语句的意思是 给你刚刚上传的文件一个备注，方便查找记忆而已</code></pre></td></tr></table>
+</div>
+</div>
+<p>git push origin master</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-fallback" data-lang="fallback">* 登录，若失败，输入
+* Username for &#39;https://github.com&#39;: 用户名，密码
+* 发现今天的格子已经绿了，说明你已经上传了你刚刚所创建的文件。
+* 再之后，你只需要将你的代码，放到库的对应的文件夹中，然后使用，</code></pre></td></tr></table>
+</div>
+</div>
+<p>git add 、git commit -m &quot;   &quot; 、最后git push origin master，将你的代码提交就可以了</p>
+]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+        <entry>
+            <title type="text">MyFirstBlog</title>
+            <link rel="alternate" type="text/html" href="https://koopa01.github.io/posts/myfirstblog/" />
+            <id>https://koopa01.github.io/posts/myfirstblog/</id>
+            <updated>2019-12-25T09:18:24+08:00</updated>
+            <published>2019-12-25T00:28:57+08:00</published>
+            <author>
+                    <name>Koopa</name>
+                    <uri>https://github.com/koopa01</uri>
+                    <email>koopayu@gmail.com</email>
+                    </author>
+            <rights>[CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh)</rights><summary type="html"><![CDATA[Hello world
+I'm koopa, Today is my first day to build a personal website. I'll manage this site till 2021.1.1. This site would be a dairy for me in learning and practicing coding . I'll go everywhere you never there.
+Wish me good luck.]]></summary>
+            
+                <content type="html"><![CDATA[<p>Hello world</p>
+
+<p>I'm koopa,
+    Today is my first day to build a personal website.
+    I'll manage this site till 2021.1.1.
+    This site would be a dairy for me in learning and practicing coding .
+    I'll go everywhere you never there.</p>
+
+<p>Wish me good luck.
+Marry Xmas.</p>
+
+<p>Koopa  Sep.25 2019</p>
+]]></content>
+            
+            
+            
+            
+            
+                
+                    
+                
+                    
+                
+            
+        </entry>
+    
+</feed>
